@@ -115,3 +115,31 @@
     margin-right: 1rem;
     font-size: 1.5rem;
 }
+/* BOTON DE COMPRA */
+
+.btn-dishes{
+    background-color: #00af66;
+    color: #fff;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.423);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    margin-left: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-dishes:hover{
+    scale: 1;
+    color: #fff;
+    background-color: #191a20;
+}
+
+.btn-dishes:active{
+      scale: 0.95;
+}
