@@ -143,3 +143,82 @@
 .btn-dishes:active{
       scale: 0.95;
 }
+
+.main-contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-contact{
+    padding: 10px 0;
+}
+
+.col{
+    width: 25%;
+    padding-left: 75px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.col h4{
+    font-size: 1.4rem;
+    color: #191a20;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: #00af66;
+}
+
+.col ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.col ul li a{
+    color:#191a20b3;
+    font-size: 5rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+    font-size: 0.9rem;
+}
+
+.col ul li a:hover{
+    color: #00af66;
+    transform: translateX(-12px);
+}
+
+.col .social{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col .social a{
+    height: 40px;
+    width: 100px;
+    background-color: #00af66;
+    color: #191a20;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 10px 10px;
+    transition: .4s;
+    margin-right: 15px;
+}
+
+.col .social a:hover{
+    transform: scale(1.2);
+    color: #00af66;
+    background-color: #191a20;
+}
