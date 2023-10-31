@@ -222,3 +222,76 @@
     color: #00af66;
     background-color: #191a20;
 }
+
+.review{
+    margin-bottom: 60px;
+}
+
+.review .slide{
+    padding: 2rem;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.423);
+    border: .1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    position: relative;
+    margin: 20px 5px 20px 25px;
+}
+
+.review .slide .fa-quote-right{
+    position: absolute;
+    top: 2rem; right: 2rem;
+    font-size: 2rem;
+    color: #ccc;
+}
+
+.review .slide .user{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .slide .user h3{
+    color: #191a20;
+    font-size: 1.6rem;
+    padding-bottom: .5rem;
+}
+
+.review .slide .user i{
+    font-size: 1.7rem;
+    color: #00af66;
+}
+
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+.swiper-container {
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    display: flex;
+    transition: transform 0.3s;
+}
+
+.swiper-slide {
+    flex: 0 0 23%;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+
+.swiper-button-prev {
+    left: 0;
+}
